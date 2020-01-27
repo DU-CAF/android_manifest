@@ -15,10 +15,14 @@
            fetch="https://github.com/DirtyUnicorns/" />
 
   <!--DU CUSTOM -->
-   <remote  name="du"
+   <remote  name="ducustom"
            revision="q10x"
            fetch="https://github.com/DU-CAF/" />
 
+  <!--los--> 
+    <remote  name="los"
+           revision="lineage-17.1"
+           fetch="https://github.com/LineageOS/" />
 
   <!-- DU REPOS -->
 
