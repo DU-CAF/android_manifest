@@ -14,6 +14,12 @@
            revision="q10x"
            fetch="https://github.com/DirtyUnicorns/" />
 
+  <!--DU CUSTOM -->
+   <remote  name="du"
+           revision="q10x"
+           fetch="https://github.com/DU-CAF/" />
+
+
   <!-- DU REPOS -->
 
   <!-- General -->
