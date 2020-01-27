@@ -48,7 +48,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="du" />
 
   <!--Sepolicy-->
-    <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="los" />
+    <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="los" />
   <!-- External -->
   <project path="external/google" name="android_external_google" remote="du" />
   <project path="external/selinux" name="android_external_selinux" remote="du" />
