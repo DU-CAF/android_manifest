@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- My setup -->
+  <remote  name="me"
+           revision="q10x"
+           fetch="https://github.com/dracarys18/" />
 
   <!-- Github remote -->
   <remote  name="github"
@@ -24,7 +28,13 @@
            revision="lineage-17.1"
            fetch="https://github.com/LineageOS/" />
 
-  <!-- DU REPOS -->
+
+  <!-- My device repos -->
+  <project path="kernel/xiaomi/msm8953" name="NotKernel" remote="me" revision="android10" />
+  <project path="device/xiaomi/mido" name="device_xiaomi_mido" remote="me" />
+  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="me" />
+ 
+ <!-- DU REPOS -->
 
   <!-- General -->
   <project path="art" name="android_art" remote="du" />
