@@ -39,7 +39,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" remote="du" >
+  <project path="build/soong" name="android_build_soong" remote="ducustom" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -96,7 +96,7 @@
 
   <!-- System -->
   <project path="system/bt" name="android_system_bt" remote="du" />
-  <project path="system/core" name="android_system_core" remote="du" />
+  <project path="system/core" name="android_system_core" remote="ducustom" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="du" />
   <project path="system/update_engine" name="android_system_update_engine" remote="du" />
   <project path="system/vold" name="android_system_vold" remote="du" />
@@ -112,7 +112,7 @@
   </project>
   <project path="vendor/extras" name="android_vendor_extras" remote="du" />
   <project path="vendor/support" name="android_vendor_support" remote="du" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="du" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="ducustom" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="los" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
